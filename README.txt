@@ -9,3 +9,4 @@ composerもdockerで用意して、docker環境のcomposerからLaravelをイン
 phpはDockerHubのimageとっても良かったけど自分でDockerfile作ることとします。
 参考サイトはこれ→https://blog.freks.jp/php-docker-image/
 あとこれ https://qiita.com/hareku/items/d44c5c08ef586e0efa43
+あとこれ https://www.membersedge.co.jp/blog/laravel-development-environment-with-docker-compose/ 　これが一番役に立った

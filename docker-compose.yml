@@ -3,7 +3,11 @@ services:
   web:
     image: nginx:1.19.0
     ports:
-      - '8000:80'
+       - '8000:80'
     volumes:
-      - ./docker/web/default.conf:/etc/nginx/conf.d/default.conf
+       - ./docker/web/default.conf:/etc/nginx/conf.d/default.conf
+       - ${PROJECT_PATH}:/work
+  app:
+    image: php:7.4-fpm
+    volumes:
       - ${PROJECT_PATH}:/work
